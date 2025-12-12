@@ -39,4 +39,8 @@ public extension UIButton {
             contentEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: insetAmount)
         }
     }
+    
+    func setContentEdgeInsets(_ value: UIEdgeInsets) {
+        contentEdgeInsets = value
+    }
 }
